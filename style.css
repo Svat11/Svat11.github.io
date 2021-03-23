@@ -1,0 +1,35 @@
+div{
+width: 70%;
+margin:auto;
+}
+p{
+
+}
+body{
+background-color: #ffaa;
+font-family: 'Source Sans Pro', sans-serif;
+}
+img{
+height:auto;
+max-width: 100%;
+display: block;
+}
+a{
+font-size: 45px	;
+}
+h1{
+color:grey;
+font-size: 64px;
+text-align: center;
+}
+p{
+color: #ba55d3;
+font-size: 32px;
+}
+
+.ahref{
+text-align: center;
+margin-bottom: 40px;
+text-decoration:none;
+font-size:32px;
+}
