@@ -1,35 +1,85 @@
-div{
-width: 70%;
-margin:auto;
-}
-p{
-
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
 }
 body{
-background-color: #ffaa;
-font-family: 'Source Sans Pro', sans-serif;
+background-color:#f5f3f2;
 }
-img{
+.header{
+margin:40px;
+font-size:40px;
+width:100%;
+text-align:center;
+}
+.body{
+background-color:;
+padding:50px;
+margin:auto;    
+width:70%;
 height:auto;
-max-width: 100%;
-display: block;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+-webkit-box-shadow: 2px 3px 8px 27px rgba(34, 60, 80, 0.81);
+-moz-box-shadow: 2px 3px 8px 27px rgba(34, 60, 80, 0.81);
+box-shadow: 2px 3px 8px 27px rgba(34, 60, 80, 0.81);
 }
-a{
-font-size: 45px	;
+.photo{
+background-color:blue;
+height:calc((35vw - 40px) / 16 * 9 );
+margin:20px;    
+width: calc(50% - 40px);
+background-position:center;
+background-size:cover;
+transition: all 0.5s ease;
+
+
 }
-h1{
-color:grey;
-font-size: 64px;
-text-align: center;
+.photo:hover { transform:rotate(0.6deg) scale(0.95);
 }
-p{
-color: #ba55d3;
-font-size: 32px;
+.photo1{
+	background-image: url(ioio2.jpg);
+}
+.photo2{
+	background-image: url(ioio3.jpg);
+}
+.photo3{
+	background-image: url(ioio4.jpg);
+}
+.photo4{
+	background-image: url(ioio5.jpg);
+}
+.photo5{
+	background-image: url(ioio6.jpg);
+}
+.photo6{
+	background-image: url(ioio7.jpg);
+}
+.photo7{
+	background-image: url(ioio8.jpg);
+}
+.photo8{
+	background-image: url(ioio9.jpg);
+}
+.photo9{
+	background-image: url(ioio10.jpg);
+}
+.photo10{
+	background-image: url(ioio11.jpg);
+}
+.photo11{
+	background-image: url(ioio12.jpg);
+}
+.photo12{
+	background-image: url(ioio1.jpg);
 }
 
-.ahref{
-text-align: center;
-margin-bottom: 40px;
-text-decoration:none;
-font-size:32px;
-}
+
+
+
+
+
+
+
+
