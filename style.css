@@ -25,6 +25,15 @@ justify-content:center;
 -moz-box-shadow: 2px 3px 8px 27px rgba(34, 60, 80, 0.81);
 box-shadow: 2px 3px 8px 27px rgba(34, 60, 80, 0.81);
 }
+element.style{	
+}
+a:-webkit-any-link {
+color:-webkit-link;
+cursor:pointer;
+text-decoration:underline;
+}
+
+
 .photo{
 background-color:blue;
 height:calc((35vw - 40px) / 16 * 9 );
